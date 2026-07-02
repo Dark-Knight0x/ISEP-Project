@@ -25,12 +25,12 @@
     </div>
 
     <nav class="nav">
-      <a class="nav-item active"><span class="nav-ic">◈</span>Overview</a>
-      <a class="nav-item"><span class="nav-ic">≋</span>Timeline</a>
-      <a class="nav-item"><span class="nav-ic">✎</span>Mood journal</a>
-      <a class="nav-item"><span class="nav-ic">▤</span>Weekly report</a>
-      <a class="nav-item"><span class="nav-ic">◔</span>Anonymous space</a>
-      <a class="nav-item"><span class="nav-ic">⚙</span>Settings &amp; privacy</a>
+      <a class="nav-item active"><span class="nav-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>Overview</a>
+      <a class="nav-item"><span class="nav-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h3l2-7 3 14 3-10 2 5h7"/></svg></span>Timeline</a>
+      <a class="nav-item"><span class="nav-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M4 19.5V6a2 2 0 0 1 2-2h9l5 5v10.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M14 4v5h5"/><path d="M8 12h8M8 16h5"/></svg></span>Mood journal</a>
+      <a class="nav-item"><span class="nav-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 20V10M12 20V4M20 20v-7"/></svg></span>Weekly report</a>
+      <a class="nav-item"><span class="nav-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><circle cx="9" cy="11" r="1" fill="currentColor" stroke="none"/><circle cx="15" cy="11" r="1" fill="currentColor" stroke="none"/><path d="M9 15c1 1 5 1 6 0"/></svg></span>Anonymous space</a>
+      <a class="nav-item"><span class="nav-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.4 13a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.6V19a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.6-1H5a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H11a1.7 1.7 0 0 0 1-1.6V5a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V11a1.7 1.7 0 0 0 1.6 1H19a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.6 1Z"/></svg></span>Settings &amp; privacy</a>
     </nav>
 
     <div class="streak-card">
@@ -71,6 +71,16 @@
 
       <!-- HERO -->
       <section class="hero">
+        <svg class="hero-illustration" viewBox="0 0 340 340" aria-hidden="true">
+          <circle cx="170" cy="170" r="150" class="hi-ring hi-ring-1"/>
+          <circle cx="170" cy="170" r="112" class="hi-ring hi-ring-2"/>
+          <circle cx="170" cy="170" r="76" class="hi-ring hi-ring-3"/>
+          <g class="hi-figure">
+            <circle cx="170" cy="120" r="17"/>
+            <path d="M137 205c0-24 15-42 33-42s33 18 33 42v14c0 5-4 9-9 9h-48c-5 0-9-4-9-9Z"/>
+            <path d="M137 196c-10 6-18 15-21 27M203 196c10 6 18 15 21 27" stroke-linecap="round"/>
+          </g>
+        </svg>
         <div class="hero-status">
           <div class="status-eyebrow">AI Baseline Status</div>
           <h2 class="status-headline">Needs attention today</h2>
@@ -233,6 +243,34 @@
         </div>
       </section>
 
+      <!-- WELLNESS MOMENTS -->
+      <section class="moments">
+        <div class="card-eyebrow">Suggested for you</div>
+        <h3 class="moments-title">Small resets between classes</h3>
+        <div class="moments-row">
+          <div class="moment-card">
+            <div class="moment-ic ic-a"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2"/><path d="M12 7v7M12 7 7 4M12 7l5-3M12 14l-4 6M12 14l4 6"/></svg></div>
+            <div class="moment-t">Stretch break</div>
+            <div class="moment-s">2 min · between lectures</div>
+          </div>
+          <div class="moment-card">
+            <div class="moment-ic ic-b"><svg viewBox="0 0 24 24" fill="currentColor"><ellipse cx="8" cy="7" rx="2.6" ry="3.4"/><ellipse cx="16" cy="15" rx="2.6" ry="3.4"/></svg></div>
+            <div class="moment-t">Walk outside</div>
+            <div class="moment-s">10 min · after class</div>
+          </div>
+          <div class="moment-card">
+            <div class="moment-ic ic-c"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8 8 5 11.5 5 15a7 7 0 0 0 14 0c0-3.5-3-7-7-13Z"/></svg></div>
+            <div class="moment-t">Hydrate</div>
+            <div class="moment-s">1 glass · every 2 hours</div>
+          </div>
+          <div class="moment-card">
+            <div class="moment-ic ic-d"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11a2.1 2.1 0 0 0-3-3L5 16l-1 4Z"/><path d="M14 6l3 3"/></svg></div>
+            <div class="moment-t">Free write</div>
+            <div class="moment-s">3 min · brain dump</div>
+          </div>
+        </div>
+      </section>
+
       <!-- ROW: weekly heatmap / AI insights -->
       <section class="grid-2">
         <div class="card heatmap-card">
@@ -267,21 +305,21 @@
           <h3>Suggestions based on this week's data</h3>
           <div class="insight-list">
             <div class="insight-item">
-              <div class="insight-ic">🌙</div>
+              <div class="insight-ic ic-sleep">🌙</div>
               <div>
                 <div class="insight-t">Going to bed 30 minutes earlier on Sundays noticeably lowers your resting heart rate on Mondays.</div>
                 <div class="insight-tag">Sleep</div>
               </div>
             </div>
             <div class="insight-item">
-              <div class="insight-ic">🫁</div>
+              <div class="insight-ic ic-breath">🫁</div>
               <div>
                 <div class="insight-t">On days with a morning breathing exercise, your exam-time heart rate is 12% more stable.</div>
                 <div class="insight-tag">Breathing</div>
               </div>
             </div>
             <div class="insight-item">
-              <div class="insight-ic">📚</div>
+              <div class="insight-ic ic-sched">📚</div>
               <div>
                 <div class="insight-t">Your packed Thursday exam schedule lines up with 3 of 4 negative check-ins this week.</div>
                 <div class="insight-tag">Schedule</div>
@@ -330,11 +368,11 @@
           <h3>Other students are going through exam week too</h3>
           <div class="community-list">
             <div class="community-post">
-              <div class="cp-head"><span class="cp-avatar">K21</span><span class="cp-time">2 hours ago</span></div>
+              <div class="cp-head"><span class="cp-avatar avatar-a">K21</span><span class="cp-time">2 hours ago</span></div>
               <p>"Just finished my Calculus exam, my heart was pounding 😅 Anyone have tips for breathing mid-exam?"</p>
             </div>
             <div class="community-post">
-              <div class="cp-head"><span class="cp-avatar">K22</span><span class="cp-time">5 hours ago</span></div>
+              <div class="cp-head"><span class="cp-avatar avatar-b">K22</span><span class="cp-time">5 hours ago</span></div>
               <p>"Schedule's packed this week — started sleeping before 11pm and my daytime heart rate feels a lot better."</p>
             </div>
           </div>
@@ -377,7 +415,13 @@
         <div class="card breathing-card">
           <div class="card-eyebrow">Breathing exercise</div>
           <h3>Box Breathing · 4-4-4-4</h3>
-          <div class="breathe-circle"><span>Breathe in</span></div>
+          <div class="breathe-wrap">
+            <svg class="breathe-rings" viewBox="0 0 200 200" aria-hidden="true">
+              <circle cx="100" cy="100" r="94" class="br-ring"/>
+              <circle cx="100" cy="100" r="70" class="br-ring"/>
+            </svg>
+            <div class="breathe-circle"><span>Breathe in</span></div>
+          </div>
           <p class="muted center">Automatically suggested after high-stress check-ins.</p>
         </div>
 
