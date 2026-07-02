@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>MindTrack — Bảng điều khiển nhịp sinh học</title>
+<title>MindTrack — Biological Rhythm Dashboard</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -20,32 +20,32 @@
       <span class="pulse-dot"></span>
       <div>
         <div class="brand-name">MindTrack</div>
-        <div class="brand-sub">Nhịp sinh học sinh viên</div>
+        <div class="brand-sub">Student biological rhythm</div>
       </div>
     </div>
 
     <nav class="nav">
-      <a class="nav-item active"><span class="nav-ic">◈</span>Tổng quan</a>
-      <a class="nav-item"><span class="nav-ic">≋</span>Trục thời gian</a>
-      <a class="nav-item"><span class="nav-ic">✎</span>Nhật ký cảm xúc</a>
-      <a class="nav-item"><span class="nav-ic">▤</span>Báo cáo tuần</a>
-      <a class="nav-item"><span class="nav-ic">◔</span>Không gian ẩn danh</a>
-      <a class="nav-item"><span class="nav-ic">⚙</span>Cài đặt &amp; quyền riêng tư</a>
+      <a class="nav-item active"><span class="nav-ic">◈</span>Overview</a>
+      <a class="nav-item"><span class="nav-ic">≋</span>Timeline</a>
+      <a class="nav-item"><span class="nav-ic">✎</span>Mood journal</a>
+      <a class="nav-item"><span class="nav-ic">▤</span>Weekly report</a>
+      <a class="nav-item"><span class="nav-ic">◔</span>Anonymous space</a>
+      <a class="nav-item"><span class="nav-ic">⚙</span>Settings &amp; privacy</a>
     </nav>
 
     <div class="streak-card">
       <div class="streak-flame">🔥</div>
       <div>
-        <div class="streak-n">7 ngày</div>
-        <div class="streak-l">chuỗi check-in liên tục</div>
+        <div class="streak-n">7 days</div>
+        <div class="streak-l">check-in streak</div>
       </div>
     </div>
 
     <div class="sidebar-user">
-      <div class="avatar">Đ</div>
+      <div class="avatar">D</div>
       <div>
-        <div class="u-name">Đoàn</div>
-        <div class="u-role">K21 · CNTT An toàn thông tin</div>
+        <div class="u-name">Doan</div>
+        <div class="u-role">K21 · Information Security</div>
       </div>
     </div>
   </aside>
@@ -55,15 +55,15 @@
 
     <header class="topbar">
       <div>
-        <div class="topbar-eyebrow">Thứ Năm · 02/07</div>
-        <h1 class="topbar-title">Chào buổi chiều, Đoàn</h1>
+        <div class="topbar-eyebrow">Thursday · Jul 02</div>
+        <h1 class="topbar-title">Good afternoon, Doan</h1>
       </div>
       <div class="topbar-actions">
-        <button class="icon-btn" aria-label="Thông báo">
+        <button class="icon-btn" aria-label="Notifications">
           🔔<span class="badge">2</span>
         </button>
-        <button class="ghost-btn">Xuất báo cáo PDF</button>
-        <div class="avatar sm">Đ</div>
+        <button class="ghost-btn">Export PDF report</button>
+        <div class="avatar sm">D</div>
       </div>
     </header>
 
@@ -72,9 +72,9 @@
       <!-- HERO -->
       <section class="hero">
         <div class="hero-status">
-          <div class="status-eyebrow">Trạng thái AI Baseline</div>
-          <h2 class="status-headline">Cần chú ý hôm nay</h2>
-          <p class="status-sub">AI phát hiện tín hiệu căng thẳng chồng lấn giữa lịch thi, nhịp tim và cảm xúc. Đây là gợi ý hỗ trợ, không phải chẩn đoán y tế.</p>
+          <div class="status-eyebrow">AI Baseline Status</div>
+          <h2 class="status-headline">Needs attention today</h2>
+          <p class="status-sub">The AI detected overlapping stress signals across your exam schedule, heart rate, and mood. This is a supportive suggestion, not a medical diagnosis.</p>
           <div class="confidence-ring">
             <svg viewBox="0 0 120 120" class="ring-svg">
               <circle cx="60" cy="60" r="52" class="ring-track"/>
@@ -82,26 +82,26 @@
             </svg>
             <div class="ring-label">
               <div class="ring-val">82%</div>
-              <div class="ring-txt">Độ tin cậy AI ↔ PSS</div>
+              <div class="ring-txt">AI ↔ PSS match confidence</div>
             </div>
           </div>
         </div>
         <div class="hero-metrics">
           <div class="metric">
             <div class="m-val">63<small> bpm</small></div>
-            <div class="m-lbl">Nhịp tim nghỉ (baseline)</div>
+            <div class="m-lbl">Resting heart rate (baseline)</div>
           </div>
           <div class="metric warn">
             <div class="m-val">78<small> bpm</small></div>
-            <div class="m-lbl">Nhịp tim giờ thi (+19%)</div>
+            <div class="m-lbl">Heart rate during exam (+19%)</div>
           </div>
           <div class="metric">
             <div class="m-val">6.4<small> h</small></div>
-            <div class="m-lbl">Giấc ngủ trung bình</div>
+            <div class="m-lbl">Average sleep</div>
           </div>
           <div class="metric warn">
             <div class="m-val">2<small></small></div>
-            <div class="m-lbl">Check-in tiêu cực hôm nay</div>
+            <div class="m-lbl">Negative check-ins today</div>
           </div>
         </div>
       </section>
@@ -110,13 +110,13 @@
       <section class="timeline-wrap">
         <div class="timeline-head">
           <div>
-            <h2>Trục thời gian đa lớp</h2>
-            <p class="muted">Ba kênh song song — như bàn dựng âm thanh cho một ngày của bạn.</p>
+            <h2>Multi-layer timeline</h2>
+            <p class="muted">Three parallel channels — like a mixing console for your day.</p>
           </div>
           <div class="legend">
-            <span><i class="lg lg-ok"></i>Trong ngưỡng</span>
-            <span><i class="lg lg-warn"></i>Cần chú ý</span>
-            <span><i class="lg lg-danger"></i>Vùng nguy hiểm</span>
+            <span><i class="lg lg-ok"></i>Within range</span>
+            <span><i class="lg lg-warn"></i>Needs attention</span>
+            <span><i class="lg lg-danger"></i>Danger zone</span>
           </div>
         </div>
 
@@ -130,17 +130,17 @@
 
         <div class="tracks">
           <div class="track">
-            <div class="track-label"><span class="track-idx">01</span>Lịch trình</div>
+            <div class="track-label"><span class="track-idx">01</span>Schedule</div>
             <div class="lane">
-              <div class="block class" style="left:4%;width:16%"><div class="b-lbl">Giải tích II</div><div class="b-time">07:00–09:00</div></div>
-              <div class="block work" style="left:24%;width:12%"><div class="b-lbl">Trợ giảng Lab</div><div class="b-time">09:30–11:00</div></div>
-              <div class="block exam danger" style="left:40%;width:10%"><div class="b-lbl">Thi Giải tích</div><div class="b-time">13:00–14:30</div></div>
-              <div class="block meal" style="left:52%;width:5%"><div class="b-lbl">Ăn tối</div><div class="b-time">18:00–18:30</div></div>
-              <div class="block sleep" style="left:74%;width:22%"><div class="b-lbl">Ngủ</div><div class="b-time">23:30–05:30</div></div>
+              <div class="block class" style="left:4%;width:16%"><div class="b-lbl">Calculus II</div><div class="b-time">07:00–09:00</div></div>
+              <div class="block work" style="left:24%;width:12%"><div class="b-lbl">Lab TA shift</div><div class="b-time">09:30–11:00</div></div>
+              <div class="block exam danger" style="left:40%;width:10%"><div class="b-lbl">Calculus exam</div><div class="b-time">13:00–14:30</div></div>
+              <div class="block meal" style="left:52%;width:5%"><div class="b-lbl">Dinner</div><div class="b-time">18:00–18:30</div></div>
+              <div class="block sleep" style="left:74%;width:22%"><div class="b-lbl">Sleep</div><div class="b-time">23:30–05:30</div></div>
             </div>
           </div>
           <div class="track">
-            <div class="track-label"><span class="track-idx">02</span>Thể chất</div>
+            <div class="track-label"><span class="track-idx">02</span>Physical</div>
             <div class="lane physical-lane">
               <svg viewBox="0 0 1000 64" class="hr-svg" preserveAspectRatio="none">
                 <defs>
@@ -167,67 +167,67 @@
             </div>
           </div>
           <div class="track">
-            <div class="track-label"><span class="track-idx">03</span>Tâm lý</div>
+            <div class="track-label"><span class="track-idx">03</span>Mood</div>
             <div class="lane mood-lane">
-              <div class="mood-pt good" style="left:10%">😊<span class="mood-tip">08:40 · "Ổn, sẵn sàng cho buổi lab"</span></div>
-              <div class="mood-pt neutral" style="left:38%">😐<span class="mood-tip">12:50 · "Hơi lo trước giờ thi"</span></div>
-              <div class="mood-pt bad" style="left:47%">😞<span class="mood-tip">14:35 · "Đề khó hơn dự kiến, mệt"</span></div>
-              <div class="mood-pt bad" style="left:63%">😢<span class="mood-tip">18:10 · "Vẫn thấy tim đập nhanh"</span></div>
+              <div class="mood-pt good" style="left:10%">😊<span class="mood-tip">08:40 · "Good, ready for lab"</span></div>
+              <div class="mood-pt neutral" style="left:38%">😐<span class="mood-tip">12:50 · "A bit nervous before the exam"</span></div>
+              <div class="mood-pt bad" style="left:47%">😞<span class="mood-tip">14:35 · "Exam was harder than expected, tired"</span></div>
+              <div class="mood-pt bad" style="left:63%">😢<span class="mood-tip">18:10 · "Heart still racing"</span></div>
             </div>
           </div>
         </div>
-        <div class="playhead" style="left:47%"><span class="playhead-tag">Bây giờ · 16:18</span></div>
+        <div class="playhead" style="left:47%"><span class="playhead-tag">Now · 16:18</span></div>
       </section>
 
       <!-- ROW: check-in / PSS / sleep breakdown -->
       <section class="grid-3">
         <div class="card checkin-card">
-          <div class="card-eyebrow">Tương tác vi mô · dưới 30 giây</div>
-          <h3>Bạn vừa hoàn thành bài thi, cơ thể bạn thế nào?</h3>
+          <div class="card-eyebrow">Micro check-in · under 30 seconds</div>
+          <h3>You just finished your exam — how's your body feeling?</h3>
           <div class="emoji-row">
             <button>😊</button><button>🙂</button><button class="sel">😐</button><button>😞</button><button>😢</button>
           </div>
-          <div class="fake-input">…hoặc gõ một câu ngắn</div>
-          <button class="primary-btn">Gửi phản hồi</button>
-          <div class="checkin-result"><span class="tag neg">Tiêu cực nhẹ</span> Điểm tâm lý: <b>−2</b></div>
+          <div class="fake-input">…or type a short note</div>
+          <button class="primary-btn">Send response</button>
+          <div class="checkin-result"><span class="tag neg">Slightly negative</span> Mood score: <b>−2</b></div>
         </div>
 
         <div class="card pss-card">
-          <div class="card-eyebrow">Thang đo căng thẳng cảm nhận · PSS</div>
-          <h3>Đối chiếu khoa học</h3>
-          <p class="muted">4 câu nhanh — thang 0 (không bao giờ) đến 4 (rất thường xuyên).</p>
+          <div class="card-eyebrow">Perceived Stress Scale · PSS</div>
+          <h3>Scientific cross-check</h3>
+          <p class="muted">4 quick questions — scale 0 (never) to 4 (very often).</p>
           <div class="pss-items">
             <div class="pss-item">
-              <p>Khó kiểm soát những việc quan trọng?</p>
+              <p>Felt unable to control important things?</p>
               <div class="pss-scale">
                 <button>0</button><button>1</button><button class="sel">2</button><button>3</button><button>4</button>
               </div>
             </div>
             <div class="pss-item">
-              <p>Thấy căng thẳng và bồn chồn?</p>
+              <p>Felt stressed and on edge?</p>
               <div class="pss-scale">
                 <button>0</button><button>1</button><button>2</button><button class="sel">3</button><button>4</button>
               </div>
             </div>
           </div>
-          <button class="primary-btn">Tính điểm &amp; đối chiếu AI</button>
+          <button class="primary-btn">Score &amp; cross-check with AI</button>
           <div class="pss-result">
-            Điểm PSS: <b>21</b> — mức <b>Cao</b><br>
-            <span class="muted">Độ trùng khớp AI ↔ PSS: <b>82%</b></span>
+            PSS score: <b>21</b> — <b>High</b> level<br>
+            <span class="muted">AI ↔ PSS match: <b>82%</b></span>
             <div class="match-bar"><div class="match-fill" style="width:82%"></div></div>
           </div>
         </div>
 
         <div class="card sleep-card">
-          <div class="card-eyebrow">Chất lượng giấc ngủ</div>
-          <h3>Đêm qua · 6.4h</h3>
+          <div class="card-eyebrow">Sleep quality</div>
+          <h3>Last night · 6.4h</h3>
           <div class="donut-wrap">
             <div class="donut"></div>
             <div class="donut-center">6.4<small>h</small></div>
           </div>
           <ul class="donut-legend">
-            <li><i style="background:var(--sleep)"></i>Sâu — 38%</li>
-            <li><i style="background:rgba(108,124,255,.45)"></i>Nhẹ — 45%</li>
+            <li><i style="background:var(--sleep)"></i>Deep — 38%</li>
+            <li><i style="background:rgba(108,124,255,.45)"></i>Light — 45%</li>
             <li><i style="background:var(--amber)"></i>REM — 17%</li>
           </ul>
         </div>
@@ -236,55 +236,55 @@
       <!-- ROW: weekly heatmap / AI insights -->
       <section class="grid-2">
         <div class="card heatmap-card">
-          <div class="card-eyebrow">Bản đồ nhiệt tuần này</div>
-          <h3>Mức căng thẳng theo buổi</h3>
+          <div class="card-eyebrow">This week's heatmap</div>
+          <h3>Stress level by time of day</h3>
           <div class="heatmap">
             <div class="heat-row">
-              <span class="heat-rowlabel">Sáng</span>
+              <span class="heat-rowlabel">Morning</span>
               <i class="heat-cell l1"></i><i class="heat-cell l2"></i><i class="heat-cell l1"></i><i class="heat-cell l3"></i><i class="heat-cell l2"></i><i class="heat-cell l0"></i><i class="heat-cell l0"></i>
             </div>
             <div class="heat-row">
-              <span class="heat-rowlabel">Chiều</span>
+              <span class="heat-rowlabel">Afternoon</span>
               <i class="heat-cell l2"></i><i class="heat-cell l1"></i><i class="heat-cell l3"></i><i class="heat-cell l4"></i><i class="heat-cell l3"></i><i class="heat-cell l1"></i><i class="heat-cell l0"></i>
             </div>
             <div class="heat-row">
-              <span class="heat-rowlabel">Tối</span>
+              <span class="heat-rowlabel">Evening</span>
               <i class="heat-cell l1"></i><i class="heat-cell l0"></i><i class="heat-cell l2"></i><i class="heat-cell l2"></i><i class="heat-cell l1"></i><i class="heat-cell l0"></i><i class="heat-cell l0"></i>
             </div>
             <div class="heat-daylabels">
-              <span></span><span>T2</span><span>T3</span><span>T4</span><span>T5</span><span>T6</span><span>T7</span><span>CN</span>
+              <span></span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
             </div>
           </div>
           <div class="heat-legend">
-            <span class="muted">Thấp</span>
+            <span class="muted">Low</span>
             <i class="heat-cell l0"></i><i class="heat-cell l1"></i><i class="heat-cell l2"></i><i class="heat-cell l3"></i><i class="heat-cell l4"></i>
-            <span class="muted">Cao</span>
+            <span class="muted">High</span>
           </div>
         </div>
 
         <div class="card insight-card">
-          <div class="card-eyebrow">AI đồng hành</div>
-          <h3>Gợi ý dựa trên dữ liệu tuần này</h3>
+          <div class="card-eyebrow">AI companion</div>
+          <h3>Suggestions based on this week's data</h3>
           <div class="insight-list">
             <div class="insight-item">
               <div class="insight-ic">🌙</div>
               <div>
-                <div class="insight-t">Ngủ sớm hơn 30 phút vào Chủ nhật giúp nhịp tim nghỉ giảm rõ vào thứ Hai.</div>
-                <div class="insight-tag">Giấc ngủ</div>
+                <div class="insight-t">Going to bed 30 minutes earlier on Sundays noticeably lowers your resting heart rate on Mondays.</div>
+                <div class="insight-tag">Sleep</div>
               </div>
             </div>
             <div class="insight-item">
               <div class="insight-ic">🫁</div>
               <div>
-                <div class="insight-t">Những ngày có bài tập thở buổi sáng, nhịp tim giờ thi ổn định hơn 12%.</div>
-                <div class="insight-tag">Hô hấp</div>
+                <div class="insight-t">On days with a morning breathing exercise, your exam-time heart rate is 12% more stable.</div>
+                <div class="insight-tag">Breathing</div>
               </div>
             </div>
             <div class="insight-item">
               <div class="insight-ic">📚</div>
               <div>
-                <div class="insight-t">Lịch thi dày vào thứ Năm trùng với 3/4 check-in tiêu cực trong tuần.</div>
-                <div class="insight-tag">Lịch trình</div>
+                <div class="insight-t">Your packed Thursday exam schedule lines up with 3 of 4 negative check-ins this week.</div>
+                <div class="insight-tag">Schedule</div>
               </div>
             </div>
           </div>
@@ -294,51 +294,51 @@
       <!-- ROW: journal / community -->
       <section class="grid-2">
         <div class="card journal-card">
-          <div class="card-eyebrow">Nhật ký cảm xúc</div>
-          <h3>Check-in gần đây</h3>
+          <div class="card-eyebrow">Mood journal</div>
+          <h3>Recent check-ins</h3>
           <ul class="journal-list">
             <li>
               <span class="j-emoji">😞</span>
               <div class="j-body">
-                <div class="j-note">"Đề khó hơn dự kiến, mệt"</div>
-                <div class="j-meta">Hôm nay · 14:35</div>
+                <div class="j-note">"Exam was harder than expected, tired"</div>
+                <div class="j-meta">Today · 14:35</div>
               </div>
               <span class="tag neg">−2</span>
             </li>
             <li>
               <span class="j-emoji">😐</span>
               <div class="j-body">
-                <div class="j-note">"Hơi lo trước giờ thi"</div>
-                <div class="j-meta">Hôm nay · 12:50</div>
+                <div class="j-note">"A bit nervous before the exam"</div>
+                <div class="j-meta">Today · 12:50</div>
               </div>
               <span class="tag neu">0</span>
             </li>
             <li>
               <span class="j-emoji">😊</span>
               <div class="j-body">
-                <div class="j-note">"Ổn, sẵn sàng cho buổi lab"</div>
-                <div class="j-meta">Hôm nay · 08:40</div>
+                <div class="j-note">"Good, ready for lab"</div>
+                <div class="j-meta">Today · 08:40</div>
               </div>
               <span class="tag pos">+2</span>
             </li>
           </ul>
-          <button class="ghost-btn full">Xem toàn bộ nhật ký</button>
+          <button class="ghost-btn full">View full journal</button>
         </div>
 
         <div class="card community-card">
-          <div class="card-eyebrow">Không gian ẩn danh</div>
-          <h3>Sinh viên khác cũng đang trải qua tuần thi</h3>
+          <div class="card-eyebrow">Anonymous space</div>
+          <h3>Other students are going through exam week too</h3>
           <div class="community-list">
             <div class="community-post">
-              <div class="cp-head"><span class="cp-avatar">K21</span><span class="cp-time">2 giờ trước</span></div>
-              <p>"Mình vừa thi xong Giải tích, tim đập muốn rớt ra ngoài 😅 Ai có mẹo thở giữa giờ thi không?"</p>
+              <div class="cp-head"><span class="cp-avatar">K21</span><span class="cp-time">2 hours ago</span></div>
+              <p>"Just finished my Calculus exam, my heart was pounding 😅 Anyone have tips for breathing mid-exam?"</p>
             </div>
             <div class="community-post">
-              <div class="cp-head"><span class="cp-avatar">K22</span><span class="cp-time">5 giờ trước</span></div>
-              <p>"Tuần này lịch dày quá, mình bắt đầu ngủ trước 23h và thấy nhịp tim ban ngày dễ chịu hơn hẳn."</p>
+              <div class="cp-head"><span class="cp-avatar">K22</span><span class="cp-time">5 hours ago</span></div>
+              <p>"Schedule's packed this week — started sleeping before 11pm and my daytime heart rate feels a lot better."</p>
             </div>
           </div>
-          <button class="primary-btn full">Khám phá không gian ẩn danh</button>
+          <button class="primary-btn full">Explore the anonymous space</button>
         </div>
       </section>
 
@@ -346,28 +346,28 @@
       <section class="escalation-showcase">
         <div class="section-head">
           <div>
-            <div class="card-eyebrow">Cơ chế leo thang có trách nhiệm</div>
-            <h2>Khi AI phát hiện khủng hoảng kép</h2>
-            <p class="muted">Lịch thi dày + nhịp tim tăng cao liên tục + phản hồi tiêu cực → hệ thống phân tầng phản ứng, luôn ưu tiên kết nối con người thật.</p>
+            <div class="card-eyebrow">Responsible escalation path</div>
+            <h2>When the AI detects a double crisis</h2>
+            <p class="muted">Packed exam schedule + sustained elevated heart rate + negative check-ins → the system tiers its response, always prioritizing a real human connection.</p>
           </div>
         </div>
         <div class="esc-tiers">
           <div class="esc-tier light">
-            <div class="esc-level">Mức nhẹ</div>
-            <h4>Gợi ý hơi thở</h4>
-            <p>Bong bóng Box Breathing 4-4-4-4 xuất hiện ngay trên timeline, không làm gián đoạn lịch học.</p>
+            <div class="esc-level">Light</div>
+            <h4>Breathing suggestion</h4>
+            <p>A Box Breathing (4-4-4-4) bubble appears right on the timeline, without interrupting your schedule.</p>
           </div>
           <div class="esc-tier medium">
-            <div class="esc-level">Mức trung bình</div>
-            <h4>Kết nối tham vấn</h4>
-            <p>Nút đặt lịch nhanh với Phòng tham vấn tâm lý của trường, hiển thị khung giờ trống gần nhất.</p>
+            <div class="esc-level">Medium</div>
+            <h4>Connect to counseling</h4>
+            <p>A quick-booking button for the campus counseling office, showing the nearest available time slot.</p>
           </div>
           <div class="esc-tier severe">
-            <div class="esc-level">Mức nặng</div>
-            <h4>Bản đồ cứu trợ thực tế</h4>
-            <p>AI tạm dừng suy luận. Hiển thị ngay số Phòng y tế nội khu và đường dây nóng quốc gia.</p>
-            <div class="hotline">096 306 1414</div>
-            <div class="muted small">Đường dây nóng Ngày Mai · 24/7</div>
+            <div class="esc-level">Severe</div>
+            <h4>Real-world relief map</h4>
+            <p>The AI pauses its inference. Immediately displays the campus health office number and a national hotline.</p>
+            <div class="hotline">1-800-273-8255</div>
+            <div class="muted small">988 Suicide &amp; Crisis Lifeline · 24/7</div>
           </div>
         </div>
       </section>
@@ -375,27 +375,27 @@
       <!-- BREATHING PREVIEW -->
       <section class="grid-2">
         <div class="card breathing-card">
-          <div class="card-eyebrow">Bài tập thở</div>
+          <div class="card-eyebrow">Breathing exercise</div>
           <h3>Box Breathing · 4-4-4-4</h3>
-          <div class="breathe-circle"><span>Hít vào</span></div>
-          <p class="muted center">Được đề xuất tự động sau các check-in căng thẳng.</p>
+          <div class="breathe-circle"><span>Breathe in</span></div>
+          <p class="muted center">Automatically suggested after high-stress check-ins.</p>
         </div>
 
         <div class="card privacy-card">
-          <div class="card-eyebrow">Quyền riêng tư &amp; dữ liệu</div>
-          <h3>Bạn toàn quyền kiểm soát</h3>
-          <p class="muted">Dữ liệu sinh học được mã hóa đầu cuối. Việc chia sẻ với chuyên gia tâm lý chỉ diễn ra khi bạn chủ động bật.</p>
+          <div class="card-eyebrow">Privacy &amp; data</div>
+          <h3>You're always in control</h3>
+          <p class="muted">Biological data is end-to-end encrypted. Sharing with a counselor only happens when you actively turn it on.</p>
           <div class="privacy-actions">
-            <button class="ghost-btn">Xuất dữ liệu sinh học (.json)</button>
-            <button class="ghost-btn">Đồng ý chia sẻ với chuyên gia</button>
-            <button class="danger-btn">Xóa vĩnh viễn tài khoản</button>
+            <button class="ghost-btn">Export biological data (.json)</button>
+            <button class="ghost-btn">Agree to share with a counselor</button>
+            <button class="danger-btn">Permanently delete account</button>
           </div>
         </div>
       </section>
 
       <footer class="app-footer">
-        <span>MindTrack · dự án đồng hành sức khỏe tinh thần sinh viên</span>
-        <span class="muted">AI không thay thế chẩn đoán y tế hay tư vấn chuyên môn.</span>
+        <span>MindTrack · a student mental wellbeing companion project</span>
+        <span class="muted">AI is not a substitute for medical diagnosis or professional counseling.</span>
       </footer>
 
     </main>
