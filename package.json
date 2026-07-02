@@ -1,0 +1,13 @@
+{
+  "name": "mindtrack-timeline",
+  "version": "1.0.0",
+  "description": "Hệ thống Timeline đa lớp theo dõi sức khỏe & tâm lý sinh viên",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
