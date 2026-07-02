@@ -62,7 +62,7 @@
         <button class="icon-btn" aria-label="Notifications">
           🔔<span class="badge">2</span>
         </button>
-        <button class="ghost-btn">Export PDF report</button>
+        <button class="ghost-btn premium-locked">Export PDF report<span class="premium-chip"><svg viewBox="0 0 24 24"><path d="M3 8l4 3 5-6 5 6 4-3-2 10H5L3 8Zm2 12h14v2H5v-2Z"/></svg>Premium</span></button>
         <div class="avatar sm">D</div>
       </div>
     </header>
@@ -274,8 +274,16 @@
       <!-- ROW: weekly heatmap / AI insights -->
       <section class="grid-2">
         <div class="card heatmap-card">
-          <div class="card-eyebrow">This week's heatmap</div>
-          <h3>Stress level by time of day</h3>
+          <div class="heat-head">
+            <div>
+              <div class="card-eyebrow">This week's heatmap</div>
+              <h3>Stress level by time of day</h3>
+            </div>
+            <div class="heat-toggle">
+              <span class="heat-toggle-opt active">Weekly</span>
+              <span class="heat-toggle-opt locked">Monthly<span class="premium-chip sm"><svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5Zm-3 8V7a3 3 0 0 1 6 0v3Z"/></svg></span></span>
+            </div>
+          </div>
           <div class="heatmap">
             <div class="heat-row">
               <span class="heat-rowlabel">Morning</span>
@@ -325,6 +333,14 @@
                 <div class="insight-tag">Schedule</div>
               </div>
             </div>
+            <div class="insight-item locked">
+              <div class="insight-ic ic-premium">🔮</div>
+              <div>
+                <div class="insight-t">Advanced pattern analysis: your stress compounds most after back-to-back classes with no meal break — unlock the full correlation model.</div>
+                <div class="insight-tag">Advanced AI · Premium</div>
+              </div>
+              <span class="premium-chip"><svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5Zm-3 8V7a3 3 0 0 1 6 0v3Z"/></svg></span>
+            </div>
           </div>
         </div>
       </section>
@@ -360,6 +376,7 @@
               <span class="tag pos">+2</span>
             </li>
           </ul>
+          <div class="premium-note">Basic plan shows the last 7 days. <a class="premium-link">Upgrade for full history →</a></div>
           <button class="ghost-btn full">View full journal</button>
         </div>
 
@@ -399,6 +416,7 @@
             <div class="esc-level">Medium</div>
             <h4>Connect to counseling</h4>
             <p>A quick-booking button for the campus counseling office, showing the nearest available time slot.</p>
+            <div class="esc-premium-note"><span class="premium-chip sm"><svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5Zm-3 8V7a3 3 0 0 1 6 0v3Z"/></svg></span>Premium unlocks same-day priority booking + a trusted-contact alert</div>
           </div>
           <div class="esc-tier severe">
             <div class="esc-level">Severe</div>
@@ -435,6 +453,53 @@
             <button class="danger-btn">Permanently delete account</button>
           </div>
         </div>
+      </section>
+
+      <!-- SUBSCRIPTION PLANS -->
+      <section class="pricing">
+        <div class="section-head center">
+          <div class="card-eyebrow">Subscription</div>
+          <h2>Choose your plan</h2>
+          <p class="muted">Core tracking is free for every student. Upgrade for deeper AI insight and priority human support. Cancel anytime.</p>
+        </div>
+        <div class="price-grid">
+          <div class="price-card basic">
+            <div class="price-top">
+              <div class="price-badge">Basic</div>
+              <div class="price-amount">$0<span>/month</span></div>
+            </div>
+            <p class="price-desc">Everything you need to start understanding your own patterns.</p>
+            <ul class="price-features">
+              <li><span class="pf-ic">✓</span>Multi-layer timeline</li>
+              <li><span class="pf-ic">✓</span>Daily micro check-ins</li>
+              <li><span class="pf-ic">✓</span>Mood journal — 7-day history</li>
+              <li><span class="pf-ic">✓</span>PSS self-test, weekly</li>
+              <li><span class="pf-ic">✓</span>3 AI insight cards / week</li>
+              <li><span class="pf-ic">✓</span>Full crisis escalation &amp; hotline access</li>
+            </ul>
+            <button class="ghost-btn full">Current plan</button>
+          </div>
+
+          <div class="price-card premium">
+            <div class="price-ribbon">Most supportive</div>
+            <div class="price-top">
+              <div class="price-badge premium-badge"><svg viewBox="0 0 24 24"><path d="M3 8l4 3 5-6 5 6 4-3-2 10H5L3 8Zm2 12h14v2H5v-2Z"/></svg>Premium</div>
+              <div class="price-amount">$20<span>/month</span></div>
+            </div>
+            <p class="price-desc">Deeper pattern analysis and faster access to real human support.</p>
+            <ul class="price-features">
+              <li><span class="pf-ic gold">✓</span>Everything in Basic</li>
+              <li><span class="pf-ic gold">✨</span>Advanced AI pattern &amp; correlation analysis</li>
+              <li><span class="pf-ic gold">✨</span>Unlimited mood journal history + export</li>
+              <li><span class="pf-ic gold">✨</span>1:1 AI coaching chat, 24/7</li>
+              <li><span class="pf-ic gold">✨</span>Same-day priority counselor booking</li>
+              <li><span class="pf-ic gold">✨</span>Trusted-contact alerts for family/friends</li>
+              <li><span class="pf-ic gold">✨</span>Monthly heatmap &amp; auto-emailed PDF report</li>
+            </ul>
+            <button class="primary-btn full">Upgrade to Premium</button>
+          </div>
+        </div>
+        <p class="muted center pricing-foot">Life-saving crisis resources and hotline access are always free, on every plan.</p>
       </section>
 
       <footer class="app-footer">
